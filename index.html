@@ -59,6 +59,8 @@
     var audio = document.getElementById("aud").play();
     var rainaud = document.getElementById("audrain").play();
     var x = document.getElementById("aud");
+    document.getElementById("aud").volume = 0.5;
+    document.getElementById("audrain").volume = 0.75;
     setInterval(function(){ 
      if(x.paused) {
   	x.play();
@@ -67,7 +69,7 @@
     }, 3000);
   </script>
   <!--
-Made with <3, by defense <twitter.com/toast_ps> -->
+Made with <3, by defense <twitter.com/toast_ps>, second stage will be available soon-ishTM -->
 </body>
 
 </html>
